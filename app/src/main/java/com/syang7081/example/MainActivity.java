@@ -1,4 +1,4 @@
-package com.syang7081.statemachine;
+package com.syang7081.example;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -10,17 +10,14 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import java.util.concurrent.TimeUnit;
+import com.syang7081.statemachine.R;
 
 import io.reactivex.Observable;
 
 import io.reactivex.ObservableEmitter;
 import io.reactivex.ObservableOnSubscribe;
-import io.reactivex.Observer;
-import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.observables.ConnectableObservable;
-import io.reactivex.schedulers.Schedulers;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = MainActivity.class.getSimpleName();

@@ -1,10 +1,9 @@
-package com.syang7081.statemachine;
+package com.syang7081.example;
 
 
 import android.util.Log;
 
 import java.util.concurrent.TimeUnit;
-import java.util.function.Consumer;
 
 import io.reactivex.Observable;
 import io.reactivex.disposables.CompositeDisposable;

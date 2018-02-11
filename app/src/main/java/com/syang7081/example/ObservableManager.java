@@ -11,7 +11,7 @@
  * the License for the specific language governing permissions and limitations under the License.
  */
 
-package com.syang7081.statemachine;
+package com.syang7081.example;
 
 import android.util.Log;
 

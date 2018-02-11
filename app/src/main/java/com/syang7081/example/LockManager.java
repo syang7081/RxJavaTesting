@@ -1,4 +1,4 @@
-package com.syang7081.statemachine;
+package com.syang7081.example;
 
 import android.util.Log;
 
